@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Interactive Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    
+  <body>
+    <div class="mainDiv">
+      <header>
+        <img src="" alt="" id="resPic" />
+        <div>
+          <h1 class="white"><span id="resName"></span></h1>
+          <p class="white"><span id="resDesig"></span></p>
+        </div>
+      </header>
+
+      <div class="contentDiv">
+        <aside>
+          <section class="contact">
+            <h2>CONTACT</h2>
+            <p><strong>Phone:</strong></p>
+            <p><span id="resPhone"></span></p>
+            <br />
+            <p><strong>Email:</strong></p>
+            <p><span id="resEmail"></span></p>
+            <br />
+            <p><strong>Address:</strong></p>
+            <p><span id="resAddress"></span></p>
+          </section>
+
+          <section class="education">
+            <h2>EDUCATION</h2>
+            <p><strong><span id="resDeg" required></span></strong></p>
+            <p><span id="resUni"></span> </p>
+            <p><span id="resPass"></span></p>
+            <br>
+            <p><strong><span id="resDeg1"required></span></strong></p>
+            <p><span id="resUni1"></span> </p>
+            <p><span id="resPass1"></span></p>
+            <br>
+            <p><strong><span id="resDeg2"></span></strong></p>
+            <p><span id="resUni2"></span> </p>
+            <p><span id="resPass2"></span></p>
+            <br>
+            <p><strong><span id="resDeg3"></span></strong></p>
+            <p><span id="resUni3"></span> </p>
+            <p><span id="resPass3"></span></p>
+          </section>
+
+          <section id="skill" class="skills">
+            <h2>SKILLS</h2>
+            <ul id="resSkills">
+              <li><strong><i><span id="resSkill1"></span></i></strong></li>
+              <li><strong><i><span id="resSkill2"></span></i></strong></li>
+              <li><strong><i><span id="resSkill3"></span></i></strong></li>
+              <li><strong><i><span id="resSkill4"></span></i></strong></li>
+              <li><strong><i><span id="resSkill5"></span></i></strong></li>
+
+            </ul>
+          </section>
+          
+          <section class="lang">
+            <h2>LANGUAGE</h2>
+            <p><span id="resLang1"></span></p>
+            <p><span id="resLang2"></span></p>
+          </section>
+
+          
+        </aside>
+
+        <main class="main-content">
+          <section class="summary">
+            <h2>PERSONAL SUMMARY</h2>
+            <p>
+              <span id="resSummary"></span>
+            </p>
+          </section>
+
+          <section class="experience">
+            <h2>WORK EXPERIENCE</h2>
+            <div class="experience-items">
+              <p><strong><span id="resJobTitle"></span></strong></p>
+              <p><span id="resCompany"></span> | <span id="resComLocation"></span></p>
+              <p><span id="resStYear"></span> - <span id="resEndYear"></span></p>
+              <ul id="resDuties">
+                <li>
+                  <span id="resDuties1"></span>
+                </li>
+                <li>
+                  <span id="resDuties2"></span>
+                </li>
+                <li>
+                  <span id="resDuties3"></span>
+                </li>
+                <li>
+                  <span id="resDuties4"></span>
+                </li>
+              </ul>
+              
+              <br>
+
+              <p><strong><span id="resJobTitle1"></span></strong></p>
+              <p><span id="resCompany1"></span> | <span id="resComLocation1"></span></p>
+              <p><span id="resStYear1"></span> - <span id="resEndYear1"></span></p>
+              <ul id="resDuties">
+                <li>
+                  <span id="resDuties5"></span>
+                </li>
+                <li>
+                  <span id="resDuties6"></span>
+                </li>
+                <li>
+                  <span id="resDuties7"></span>
+                </li>
+                <li>
+                  <span id="resDuties8"></span>
+                </li>
+              </ul>
+            </div>
+
+          </section>
+
+          <section class="courses">
+            <h2>COURSES</h2>
+            <p>
+              <strong>
+                <span id="resCourse1"></span>
+              </strong>
+            </p>
+            <p>
+              <strong>
+                <span id="resCourse2"></span>
+              </strong>
+            </p>
+          </section>
+
+          <section class="reference">
+            <h2>REFERENCE</h2>
+            <p><span id="resRef"></span></p>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <div class="btnDiv">
+      <button id="edit_btn">Edit</button>
+    </div>
+  </body>
+  <script src="resumeScript.js"></script>
+</html>
